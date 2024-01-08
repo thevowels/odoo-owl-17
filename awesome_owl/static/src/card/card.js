@@ -10,6 +10,7 @@ export class Card extends Component{
     // }
     static props={
         title:{type:String},
-        content:{type:String, optional:true}
+        content:{type:String, optional:true},
+        onChange:{type:Function, optional:true}
     }
 }
