@@ -3,7 +3,9 @@
 
     <t t-name="awesome_owl.playground">
         <div class="p-3">
-            hello world <Counter/><Counter/>
+            hello world
+             <Counter/>
+             <Counter/>
         </div>
     </t>
 
