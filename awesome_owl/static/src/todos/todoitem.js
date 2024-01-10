@@ -6,6 +6,13 @@ export class TodoItem extends Component{
 
 
     static props={
-        todo:{type:Object}
+        todo:{
+            type:Object,
+            shape:{
+                id: Number,
+                description: String,
+                isCompleted: Boolean,
+            }
+        }
     }
 }

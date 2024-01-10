@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <template xml:space="preserve">
     <t t-name="awesome_owl.TodoList">
-        <div class="">
+        <div class="border d-inline-block m-2 p-2 card">
             <t t-foreach="this.todos" t-as="todo" t-key="todo.id">
-                <p><TodoItem todo="todo"/></p>
+                <TodoItem todo="todo"/>
             </t>
         </div>
     </t>
