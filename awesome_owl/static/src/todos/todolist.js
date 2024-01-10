@@ -6,7 +6,9 @@ export class TodoList extends Component{
     static template="awesome_owl.TodoList";
 
     setup(){
-        this.todos = useState([{id:1,description:"do something",isCompleted:false},{id:2,description:"Do Nothing",isCompleted:true}])
+        this.todos = useState([
+            {id:1,description:"do something",isCompleted:false},
+            {id:2,description:"Do Nothing",isCompleted:true}])
     }
     static components = {TodoItem}
 
