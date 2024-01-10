@@ -2,10 +2,10 @@
 import { Counter } from "./counter/counter";
 import {Card} from "./card/card";
 import { Component, markup, useState} from "@odoo/owl";
-import { TodoItem } from "./todoitem/todoitem";
+import { TodoList } from "./todos/todolist";
 export class Playground extends Component {
     static template = "awesome_owl.playground";
-    static components = {Counter, Card, TodoItem};
+    static components = {Counter, Card, TodoList};
 
     setup(){
         this.str1 = "<div class='text-primary'>some content</div>";

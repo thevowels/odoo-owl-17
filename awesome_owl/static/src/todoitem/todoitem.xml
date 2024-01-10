@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<template xml:space="preserve">
-    <t t-name="awesome_owl.TodoItem">
-        <div class=" card d-inline-block m-2 p-2">
-            <h6><t t-esc="this.props.id"/></h6>
-            <p><t t-esc="this.props.description"/></p>
-        </div>
-    </t>
-</template>
