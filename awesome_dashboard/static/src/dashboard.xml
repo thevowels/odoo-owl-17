@@ -2,7 +2,14 @@
 <templates xml:space="preserve">
 
     <t t-name="awesome_dashboard.AwesomeDashboard">
-        hello dashboard
+            <Layout display="display" className="'o_dashboard h-50'">
+                <t t-set-slot="layout-buttons">
+                </t>
+                <p>
+                    asdf
+
+                </p>
+            </Layout>
     </t>
 
 </templates>
